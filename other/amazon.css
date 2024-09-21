@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+
+}
+
+/** 1 head **/
+.head{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/** box **/
+.headlogo{
+    margin: 10px 0 5px 0;
+    padding: 1px;
+}
+
+.logo{
+    background-size: cover;
+    height: 45px;
+    width: 120px;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/** box1 **/
+.head1{
+    padding: 6px;
+}
+.headf1{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 14px;
+}
+.headf2{
+    font-size: 1rem;
+    margin-left: 2px;
+}
+
+.head1-icon{
+    display: flex;
+    align-items: center;
+}
+
+/** box2 **/
+.border1{
+    border: 3.5px solid transparent;
+}
+.border1:hover{
+    border: 2.5px solid orange;
+}
+
+.head2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 650px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.head2f1{
+    height: 35px;
+    width: 45px;
+    background-color: #e6e6e6;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+.head2f2{
+    height: 35px;
+    width: 100%;
+    border: none;
+}
+
+.head2-icon{
+    width: 45px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    color: #0f1111;
+}
+
+/** box3 **/
+.head3f1{
+    margin-left: 0.3rem;
+}
+
+.head3f2{
+    background-color: #0f1111;
+    border: none;
+    color: white;
+    max-width: 100%;
+    width: 15rem;
+}
+
+.head3{
+    margin: 5px 0 6px 0;
+    padding: 5px 9px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 50px;
+    width: 8.5rem
+}
+
+/** box 4 **/
+.head4{
+    margin: 5px 0 6px 0;
+    padding: 5px 9px;
+}
+
+/** box3 box4 **/
+samp{
+    font-size: 0.7rem;
+}
+
+.head34f1{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** box5 **/
+.head5 i{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.head5{
+    margin: 5px 0 6px 0;
+    padding: 5px 9px;
+}
+
+/** 2 head **/
+.dhead{
+    background-color: #222f3d;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dhead2 p{
+    display: inline;
+    font-size: 0.74rem;
+    height: 80px;
+    margin: 5px 0 6px 8px;
+    padding: 8px 9px;
+}
+
+.dhead1{
+    margin: 5px 0 6px 0;
+    padding: 5px 10px;
+}
+
+.dhead2 {
+    width: 95%;
+}
+
+.dhead2f1{
+    background-color: #222f3d ;
+    border: none;
+    color: white;
+}
+
+
+/** main **/
+
+/** hero **/
+.main1{
+    background-image: url("/Amazon-clone/image/hero.jpg");
+    background-size: cover;
+    height: 280px;
+}
+
+/** shop **/
+.main{
+    background-color:rgba(222, 184, 135, 0.783)
+}
+
+.main2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.box{
+    height: 400px;
+    width: 29.5%;
+    background-color: white;
+    padding: 20px 0 15px 0;
+    margin: 15px 20px 0 20px;
+}
+
+.box-img{
+    height: 270px;
+    background-size: cover;
+    margin: 12px 20px 12px 20px;
+}
+
+.box-h{
+    padding-left: 1.4rem;
+}
+
+.box-more{
+    color: #007185;
+    padding-left: 1.4rem;
+    font-size: 0.85rem;
+    width: 100%;
+}
+
+.box-more:hover{
+    color: red;
+}
+
+/** foot **/
+footer{
+    margin-top: 15px;
+}
+
+/** foot box 1 **/
+.foot{
+    background-color: #37475a;
+    height: 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footf1{
+    font-size: 0.9rem;
+}
+
+/** foot box 2 **/
+.foot1{
+    background-color: #222f3d ;
+    color: white;
+    height: 380px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.foot1 p{
+    font-size: 1.15rem;
+    margin-top: 70px;
+}
+
+.foot1 a{
+    display: block;
+    color: #dddddd;
+    margin-top: 10px;
+    font-size: 0.87rem;
+}
+
+/** foot box 3 **/
+.foot2{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flogo{
+    background-image: url("/Amazon-clone/image/logo.webp");
+    background-size: cover;
+    height: 25px;
+    width: 85px;
+    margin: 20px;
+}
+
+/** foot box 4 **/
+.foot3{
+    background-color: #131a22;
+    color: white;
+    height: 80px;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+.foot3f1{
+    padding-top: 1.5rem;
+}
+
+.foot3f1 a{
+    margin-left: 1.2rem;
+}
+
+.foot3f2{
+    padding-top: 0.95px;
+}
